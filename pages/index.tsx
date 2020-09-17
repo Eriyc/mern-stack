@@ -42,7 +42,7 @@ Home.getInitialProps = async (ctx) => {
     body: JSON.stringify({
       amount: 10,
       seen: [],
-    }),
+    }), 
   });
 
   // The data recieved will always come in the Post format from the server
